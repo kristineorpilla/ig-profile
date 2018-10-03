@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+
+#container {
+  width: 1080px;
+  align-items: center;
+  background-color: white;
+  border: 3px solid #DDDDDD;
+}
+
+#top-bar {
+  height: 145px;
+  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Top-Bar.png?raw=true");
+  background-repeat: no-repeat;
+}
+
+#username {
+  align-items: center;
+}
+
+#follower-count {
+  height: 355px;
+  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Follower-Count.png?raw=true");
+}
+
+#profile-picture {
+  
+}
