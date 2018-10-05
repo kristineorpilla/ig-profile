@@ -4,19 +4,20 @@ body {
 
 #container {
   width: 1080px;
-  align-items: center;
   background-color: white;
   border: 3px solid #DDDDDD;
+  align-items: center;
 }
 
 #top-bar {
   height: 145px;
   background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Top-Bar.png?raw=true");
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 #username {
-  align-items: center;
+  text-align: center;
 }
 
 #follower-count {
@@ -25,5 +26,26 @@ body {
 }
 
 #profile-picture {
-  
+  border-radius: 50%;
+  height: 255px;
+  width: 255px;
+  margin-top: 52.5px;
+  margin-left: 58.49px;
+}
+
+#photo-bar {
+  height: 140px;
+  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Photo-Bar.png?raw=true");
+}
+
+.ig-image {
+  height: 350px;
+  width: 33%;
+  display: inline-grid;
+  grid-gap: 15px;
+}
+
+#bottom-bar {
+  height: 135px;
+  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Bottom-Bar.png?raw=true");
 }
