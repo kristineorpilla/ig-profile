@@ -64,8 +64,8 @@ body {
 }
 
 .ig-image {
-  height: 350px;
-  width: 350px;
+  height: 355px;
+  width: 355px;
   display: inline-grid;
   grid-gap: 15px;
   background-size: cover;
