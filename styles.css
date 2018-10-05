@@ -26,7 +26,8 @@ body {
 }
 
 #profile-picture {
-  border-radius: 50%;
+  background-image: url("../ig-profile/images/profile pic.jpg");
+  border-radius: 10%;
   height: 255px;
   width: 255px;
   margin-top: 52.5px;
@@ -43,6 +44,30 @@ body {
   width: 33%;
   display: inline-grid;
   grid-gap: 15px;
+}
+
+#image-1 {
+  background-image: url("images/council.jpg");
+}
+
+#image-2 {
+  background-image: url("images/loc.jpg");
+}
+
+#image-3 {
+  background-image: url("../ig-profile/images/birthday.jpg");
+}
+
+#image-4 {
+  background-image: url("../ig-profile/images/pool.jpg");
+}
+
+#image-5 {
+  background-image: url("../ig-profile/images/legacy.jpg");
+}
+
+#image-6 {
+  background-image: url("../ig-profile/images/carnival.jpg");
 }
 
 #bottom-bar {
