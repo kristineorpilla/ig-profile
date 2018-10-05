@@ -11,8 +11,7 @@ body {
 
 #top-bar {
   height: 145px;
-  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Top-Bar.png?raw=true");
-  background-repeat: no-repeat;
+  background-image: url("images/top-bar.png");
   align-items: center;
 }
 
@@ -22,7 +21,7 @@ body {
 
 #follower-count {
   height: 355px;
-  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Follower-Count.png?raw=true");
+  background-image: url("images/follower-count.png");
 }
 
 #profile-picture {
@@ -32,11 +31,12 @@ body {
   width: 255px;
   margin-top: 52.5px;
   margin-left: 58.49px;
+  background-size: cover;
 }
 
 #photo-bar {
   height: 140px;
-  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Photo-Bar.png?raw=true");
+  background-image: url("images/photo-bar.png");
 }
 
 #image-1 {
@@ -68,10 +68,9 @@ body {
   width: 350px;
   display: inline-grid;
   grid-gap: 15px;
+  background-size: cover;
 }
 
 #bottom-bar {
   height: 135px;
-  background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Bottom-Bar.png?raw=true");
-}
-
+  background-image: url("images/bottom-bar.png");
