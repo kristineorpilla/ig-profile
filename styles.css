@@ -26,8 +26,8 @@ body {
 }
 
 #profile-picture {
-  background-image: url("../ig-profile/images/profile pic.jpg");
-  border-radius: 10%;
+  background-image: url("images/profile pic.jpg");
+  border-radius: 50%;
   height: 255px;
   width: 255px;
   margin-top: 52.5px;
@@ -39,13 +39,6 @@ body {
   background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Photo-Bar.png?raw=true");
 }
 
-.ig-image {
-  height: 350px;
-  width: 33%;
-  display: inline-grid;
-  grid-gap: 15px;
-}
-
 #image-1 {
   background-image: url("images/council.jpg");
 }
@@ -55,22 +48,30 @@ body {
 }
 
 #image-3 {
-  background-image: url("../ig-profile/images/birthday.jpg");
+  background-image: url("images/birthday.jpg");
 }
 
 #image-4 {
-  background-image: url("../ig-profile/images/pool.jpg");
+  background-image: url("images/pool.jpg");
 }
 
 #image-5 {
-  background-image: url("../ig-profile/images/legacy.jpg");
+  background-image: url("images/legacy.jpg");
 }
 
 #image-6 {
-  background-image: url("../ig-profile/images/carnival.jpg");
+  background-image: url("images/carnival.jpg");
+}
+
+.ig-image {
+  height: 350px;
+  width: 350px;
+  display: inline-grid;
+  grid-gap: 15px;
 }
 
 #bottom-bar {
   height: 135px;
   background-image: url("https://github.com/kristineorpilla/ig-profile/blob/master/images/Bottom-Bar.png?raw=true");
 }
+
